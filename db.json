@@ -1,0 +1,60 @@
+{
+ "messages": [
+    {"text": "Why did the chicken cross the road?"},
+    {
+      "attachment":{
+        "type":"template",
+        "payload":{
+          "template_type":"generic",
+          "image_aspect_ratio": "square",
+          "elements":[
+            {
+              "title":"She wanted to stretch her legs.",
+              "image_url":"http://static1.squarespace.com/static/55a76448e4b0cf6b5b82ad8d/t/5747faec1d07c0e3dec288a1/1520225053367/?format=1000w",
+              "buttons":[
+                {
+                  "type": "show_block",
+                  "block_names": ["Thank you"],
+                  "title": "A"
+                }
+              ]
+            },
+            {
+              "title":"To cockadoodle dooo something..",
+              "image_url":"http://static1.squarespace.com/static/55a76448e4b0cf6b5b82ad8d/t/5747faec1d07c0e3dec288a1/1520225053367/?format=1000w",
+              "buttons":[
+                {
+                  "type": "show_block",
+                  "block_names": ["Thank you"],
+                  "title": "B"
+                }
+              ]
+            },
+            {
+              "title":"To get to the other slide.",
+              "image_url":"http://static1.squarespace.com/static/55a76448e4b0cf6b5b82ad8d/t/5747faec1d07c0e3dec288a1/1520225053367/?format=1000w",
+              "buttons":[
+                {
+                  "type": "show_block",
+                  "block_names": ["Thank you"],
+                  "title": "C"
+                }
+              ]
+            },
+            {
+              "title":"They thought it was an egg-cellent idea!",
+              "image_url":"http://static1.squarespace.com/static/55a76448e4b0cf6b5b82ad8d/t/5747faec1d07c0e3dec288a1/1520225053367/?format=1000w",
+              "buttons":[
+                {
+                  "type": "show_block",
+                  "block_names": ["Thank you"],
+                  "title": "D"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
